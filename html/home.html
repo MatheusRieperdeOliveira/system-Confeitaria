@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Send+Flowers&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lexend:wght@100..900&family=Send+Flowers&display=swap');
+    </style>
+    <link rel="shortcut icon" href="../img/icons/bolo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ale Sabores | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="company-brand">
+            <h1>Ale Sabores</h1>
+        </div>
+        <div class="box-search">
+            <input type="text" placeholder="Buscar produto">
+            <button><img src="../img/icons/lupa.png" alt=""></button>
+        </div>
+        <button id="btn-menu" class="btn-menu" onclick="abrirMenu()">
+            <img src="../img/icons/menu.png" alt="">
+        </button>
+
+    </header>
+
+    <div id="menu">
+        <div class="info-user">
+            <button class="btn-fechar" onclick="fecharMenu()"><img src="../img/icons/fechar.png" alt=""></button>
+            <img class="photo-user" src="../img/freepik-export-20241107002727xXQd.jpeg" alt="">
+            <div>
+                <p>Matheus</p>
+                <p>18</p>
+                <p>mrieper87@gmail.com</p>
+            </div>
+        </div>
+        <ul class="body-list">
+            <li>
+                <a href="../html/home.html">Home</a>
+            </li>
+            <li>
+                <a href="../html/sobreNos.html">Sobre Nós</a>
+            </li>
+            <li>
+                <a href="../html/produtos.html">Produtos</a>
+            </li>
+            <li>
+                <a href="#">Entrega e Pagamento</a>
+            </li>
+            <li>
+                <a href="#">Depoimentos</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+        <div class="social-media">
+            <img src="../img/icons/whatsapp.png" alt="">
+            <img src="../img/icons/instagram.png" alt="">
+        </div>
+    </div>
+    <main>
+        <h1>Produtos</h1>
+        <div class="carrosel">
+            <ul>
+                <li>
+                    <p>Torta    </p>
+                    <img src="../img/produtos/bolo.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>Torta de Limão</p>
+                    <img src="../img/produtos/torta de limão.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>Bolo de Chocolate</p>
+                    <img src="../img/produtos/bolo de chocolate.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>Folhado</p>
+                    <img src="../img/produtos/folhado.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>Croassaint</p>
+                    <img src="../img/produtos/croassaint.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>CupCake de Chocolate</p>
+                    <img src="../img/produtos/cup cake de chocolate.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+                <li>
+                    <p>CupCake de Morango</p>
+                    <img src="../img/produtos/cup cake de morango.png" alt="">
+                    <button>Veja mais</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+
+    <script src="../javaScript/abrirMenu.js"></script>
+    <script src="../javaScript/carrosel.js"></script>
+
+</body>
+
+</html>
